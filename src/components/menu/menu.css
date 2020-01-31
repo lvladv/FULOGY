@@ -1,0 +1,19 @@
+.menu {
+  position: absolute;
+  width: 25vw;
+  right: 0;
+  height: 90vh;
+  top: 10vh;
+  background-color: #000000;
+  z-index: 10;
+}
+
+.menu ul li {
+  margin: 40px 30px;
+  text-align: center;
+  list-style: none;
+}
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+}

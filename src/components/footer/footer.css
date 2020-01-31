@@ -1,0 +1,30 @@
+.link-block {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgb(199, 199, 211);
+  background-color: whitesmoke;
+  list-style: none;
+  width: 12.5%;
+  text-align: center;
+  border-bottom: 5px solid #00bfff;
+}
+
+.link:hover {
+  background-color: #00bfff;
+}
+
+.red-border {
+  border-bottom: 5px solid rgb(224, 81, 71);
+}
+footer {
+  border: 1px solid rgb(199, 199, 211);
+}

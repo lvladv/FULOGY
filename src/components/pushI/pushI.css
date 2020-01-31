@@ -1,0 +1,19 @@
+.info-text {
+  position: absolute;
+  width: 100vw;
+  height: 80vh;
+  top: 10vh;
+  background-color: white;
+  z-index: 10;
+}
+
+.info-text div {
+  margin: 30px;
+  width: 70%;
+}
+
+.prev {
+  text-decoration: none;
+  color: gray;
+  margin: 50px;
+}

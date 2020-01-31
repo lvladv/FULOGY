@@ -1,0 +1,63 @@
+section {
+  display: flex;
+}
+
+.slayder {
+  align-self: center;
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  border-radius: 20px;
+  background-origin: content-box;
+  background-size: 100% 110%;
+  background-repeat: no-repeat;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.photo1 {
+  background-image: url(./img/photo1.png);
+}
+.photo2 {
+  background-image: url(./img/photo2.png);
+}
+.photo3 {
+  background-image: url(./img/photo3.png);
+}
+.photo4 {
+  background-image: url(./img/photo4.png);
+}
+.photo5 {
+  background-image: url(./img/photo5.png);
+}
+.photo6 {
+  background-image: url(./img/photo6.png);
+}
+.photo7 {
+  background-image: url(./img/photo7.png);
+}
+.photo8 {
+  background-image: url(./img/photo8.png);
+}
+.photo9 {
+  background-image: url(./img/photo9.png);
+}
+.slayder ul {
+  position: relative;
+  top: 80%;
+  left: 30%;
+}
+.slayder li {
+  list-style: none;
+  float: left;
+  width: 7px;
+  height: 7px;
+  border: 1px solid whitesmoke;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+
+
+.point {
+  background-color: whitesmoke;
+}
